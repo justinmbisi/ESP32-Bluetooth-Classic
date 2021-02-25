@@ -1,0 +1,85 @@
+Processing pico32 (platform: espressif32; board: pico32; framework: arduino)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/pico32.html
+PLATFORM: Espressif 32 (3.0.0) > ESP32 Pico Kit
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (esp-prog) External (esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 3.10004.210126 (1.0.4) 
+ - tool-esptoolpy 1.30000.201119 (3.0.0) 
+ - toolchain-xtensa32 2.50200.80 (5.2.0)
+LDF: Library Dependency Finder -> http://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 26 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/pico32/src/main.cpp.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-misc.c.o
+src/main.cpp:55:25: fatal error: bt_app_core.h: No such file or directory
+
+*********************************************************************
+* Looking for bt_app_core.h dependency? Check our library registry!
+*
+* CLI  > platformio lib search "header:bt_app_core.h"
+* Web  > https://platformio.org/lib/search?query=header:bt_app_core.h
+*
+*********************************************************************
+
+compilation terminated.
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-psram.c.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-sigmadelta.c.o
+*** [.pio/build/pico32/src/main.cpp.o] Error 1
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-spi.c.o
+====================================================================== [FAILED] Took 2.45 seconds ======================================================================
+The terminal process "pio 'run'" terminated with exit code: 1.
+
+Terminal will be reused by tasks, press any key to close it.
+
+> Executing task in folder SDP_BluetoothClassic: pio run <
+
+Processing pico32 (platform: espressif32; board: pico32; framework: arduino)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/pico32.html
+PLATFORM: Espressif 32 (3.0.0) > ESP32 Pico Kit
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (esp-prog) External (esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 3.10004.210126 (1.0.4) 
+ - tool-esptoolpy 1.30000.201119 (3.0.0) 
+ - toolchain-xtensa32 2.50200.80 (5.2.0)
+LDF: Library Dependency Finder -> http://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 26 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/pico32/src/main.cpp.o
+src/main.cpp:55:25: fatal error: bt_app_core.h: No such file or directory
+
+*********************************************************************
+* Looking for bt_app_core.h dependency? Check our library registry!
+*
+* CLI  > platformio lib search "header:bt_app_core.h"
+* Web  > https://platformio.org/lib/search?query=header:bt_app_core.h
+*
+*********************************************************************
+
+compilation terminated.
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-time.c.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-timer.c.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-touch.c.o
+Compiling .pio/build/pico32/FrameworkArduino/esp32-hal-uart.c.o
+Compiling .pio/build/pico32/FrameworkArduino/libb64/cdecode.c.o
+Compiling .pio/build/pico32/FrameworkArduino/libb64/cencode.c.o
+*** [.pio/build/pico32/src/main.cpp.o] Error 1
+Compiling .pio/build/pico32/FrameworkArduino/main.cpp.o
+====================================================================== [FAILED] Took 2.00 seconds ======================================================================
+The terminal process "pio 'run'" terminated with exit code: 1.
+
+Terminal will be reused by tasks, press any key to close it.
